@@ -4,6 +4,7 @@ import Title from "../components/Title";
 import Colors from "../helper/colors";
 
 const GameOver = ({ guessRounds, userChoice }) => {
+  // console.log("GameOver.js", guessRounds, userChoice);
   return (
     <View style={styles.rootContainer}>
       <Title>Game Over</Title>
